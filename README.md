@@ -93,7 +93,7 @@ As a user, I should be able to submit a PATCH request on the endpoint PATCH loca
 - The update of a message should be successful if and only if the message id already exists and the new messageText is not blank and is not over 255 characters. If the update is successful, the response body should contain the number of rows updated (1), and the response status should be 200, which is the default. The message existing on the database should have the updated messageText.
 - If the update of the message is not successful for any reason, the response status should be 400. (Client error)
 
-## 8: Our API should be able to retrieve all messages written by a particular user.
+## Ht
 
 As a user, I should be able to submit a GET request on the endpoint GET localhost:8080/accounts/{accountId}/messages.
 
